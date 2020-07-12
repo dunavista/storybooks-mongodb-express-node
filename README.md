@@ -1,4 +1,4 @@
-# Storybook App Created on Brad Traversy Tutorial...............
+# Storybook App Created on Brad Traversy Tutorial...............vvvvvvvv
 The app uses the following technologies and javascript libraries:
 * MongoDB
 * Express.js
