@@ -7,6 +7,7 @@ const path = require('path');
 const exphbs = require('express-handlebars');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
+const dotenv = require("dotenv");
 const methodOverride = require('method-override');
 const passport = require('passport');
 const cookieParser = require('cookie-parser');
