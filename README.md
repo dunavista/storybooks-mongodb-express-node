@@ -18,7 +18,7 @@ The app uses the following technologies and javascript libraries:
 A simple StoryBook app. Based on the tutorial session of Brad Traversy.
 
 ## How can I try it?
-Demo: https://blooming-caverns-57196.herokuapp.com
+Demo: https://nickelondon.com
 
 ## What are the features?
 You can register with your email address, and you can create stories. You can list stories, edit, delete and comment them. 
