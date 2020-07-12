@@ -62,7 +62,8 @@ app.engine('handlebars', exphbs({
     select: select,
     editIcon: editIcon
   },
-  defaultLayout: 'main'
+  defaultLayout: 'main',
+  extname: 'handlebars',
 }));
 app.set('view engine', 'handlebars');
 
