@@ -1,4 +1,1 @@
-PORT = xxxxx
-mongoURI = 'xxxxxxxxxxxxxxxxxxxxxx'
-googleClientID = 'xxxxxxxxxxxxxxx'
-googleClientSecret = 'xxxxxxxxxxxxxxxxxxxxxxxx'
+PORT = 5000
