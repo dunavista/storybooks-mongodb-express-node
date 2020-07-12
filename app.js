@@ -7,11 +7,13 @@ const path = require('path');
 const exphbs = require('express-handlebars');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
-const dotenv = require("dotenv");
+const dotenv = require('dotenv');
 const methodOverride = require('method-override');
 const passport = require('passport');
 const cookieParser = require('cookie-parser');
 const session = require('express-session');
+const Handlebars = require('handlebars');
+const {allowInsecurePrototypeAccess} = require('@handlebars/allow-prototype-access');
 
 // load models
 require('./models/User');
@@ -65,6 +67,7 @@ app.engine('handlebars', exphbs({
   },
   defaultLayout: 'main',
   extname: 'handlebars',
+  handlebars: allowInsecurePrototypeAccess(Handlebars)
 }));
 app.set('view engine', 'handlebars');
 
