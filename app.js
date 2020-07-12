@@ -40,7 +40,7 @@ const {
 } = require('./helpers/hbs');
 
 // mongoose connect
-mongoose.connect(keys.mongoURI).then(() => {
+mongoose.connect(mongoURI).then(() => {
   console.log('MongoDB Connected.');
 }).catch((err) => {
   console.log(err);
